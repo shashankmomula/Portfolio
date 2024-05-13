@@ -1,0 +1,105 @@
+body{
+    background-color:rgb(179, 179, 156);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:beige;
+    width: 100%;
+    height:90px;
+    box-shadow: 1px 2px black;
+}
+.img{
+    width: 150px;
+}
+.items-container>ul{
+    display: flex;
+    list-style-type: none;
+}
+.items-container > ul >li{
+    padding:10px;
+    margin:10px;
+}
+.name{
+    padding: 10px;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+.body-component{
+    display: flex;
+}
+.programmer{
+   width:400px;
+   padding: 10px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+} 
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    
+    margin: 110px 0 ;    
+}
+.firstSection div{
+    width: 77%;
+}
+.leftSection{
+    font-size: 3rem;
+    padding-top: 90px;
+    padding-right: 66px;
+     padding-left:60px;
+     align-items: center;
+}
+.rightSection img{
+    width:400px;
+}
+.home,.about,.books,.contact,.projects{
+    text-decoration: none;
+    color: black;
+}
+.about-me p{
+    width: 450px;
+   font-size: 1rem;
+   
+} 
+.intro{
+    background-color:beige;
+        /* border: 1px solid black; */
+        border-radius: 10px;
+        margin: auto; /* position: relative; */
+        text-align: center;
+        /* top: 50%; */
+        width: 70%;  
+        height: 300px;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        opacity: 0.8;
+        box-shadow: 1px 1px black;
+}
+.author {
+    /* font-style: italic;   */
+    text-align: center;
+}
+.left-intro{
+    width:50%;
+}
+.right-intro{
+    width:50%;
+}
+.right-intro{
+    font-style: italic;
+    font-size:large;
+    text-align:justify;
+    margin: 23px 40px 0px 40px;
+    word-spacing: 0px;
+}
+.sample-book{
+    width:250px;
+    border-radius: 12px;
+    margin: 50px -45px 0px 215px;
+}
+.book-btn{
+    margin:1px 2px 3px 4px;
+    padding:1px 2px 3px 4px;
+}
