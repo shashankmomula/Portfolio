@@ -28,9 +28,7 @@ more accessible and enjoyable. Recognizing the struggles that many beginners fac
         className="sample-book"></img>
         <button>hi</button>
       </div>
-      <img 
-          src={"IMG_4449.jpg"}
-        /> 
+     
         </div>
        
       

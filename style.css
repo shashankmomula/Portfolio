@@ -1,4 +1,4 @@
-body{
+/* body{
     background-color:rgb(179, 179, 156);
 }
 
@@ -64,11 +64,11 @@ body{
 } 
 .intro{
     background-color:beige;
-        /* border: 1px solid black; */
+         border: 1px solid black; 
         border-radius: 10px;
-        margin: auto; /* position: relative; */
+        margin: auto;  position: relative; 
         text-align: center;
-        /* top: 50%; */
+         top: 50%; 
         width: 70%;  
         height: 300px;
         margin-top: 40px;
@@ -78,7 +78,7 @@ body{
         box-shadow: 1px 1px black;
 }
 .author {
-    /* font-style: italic;   */
+     font-style: italic;  
     text-align: center;
 }
 .left-intro{
@@ -102,4 +102,7 @@ body{
 .book-btn{
     margin:1px 2px 3px 4px;
     padding:1px 2px 3px 4px;
-}
+}  */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

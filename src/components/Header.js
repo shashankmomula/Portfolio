@@ -1,37 +1,35 @@
 import { Link } from "react-router-dom";
 import { createBrowserRouter } from "react-router-dom/dist";
-import Body from "./body";
+
+
 
 const Header = () =>{
-    console.log("Test");
-        return(
-            <div className="header">
-                <div className="logo-container">
-                    <img className="img"src=""/> 
-                    {/* <h2>SHASHANK</h2>      */}
-                 </div>
-                 <div className="items-container">
-        <ul >
-         
-          <li>
-            <Link to="/" className="home">Home</Link>
-          </li>
-          <li>
-            <Link to="/about" className="about">About me</Link>
-          </li>
-          <li>
-            <Link to="/contact" className="contact">Contact me</Link>
-          </li>
-          <li>
-            <Link to="/books" className="books">Books</Link>
-          </li>
-          <li>
-            <Link to="/projects" className="projects">Projects</Link>
-          </li>
-        </ul>
+    return (
+      <div className="flex justify-between sm: bg-orange-100 w-90 h-30 from-stone-400">
+        <div className="logo-container">
+          {/* <link href="IMG_4449"></link> */}
+        </div>
+        <div className="flex items-center">
+          <ul className="flex p-4 m-4">
+           
+            <li className="px-4">
+              <Link to="/">Home</Link>
+            </li>
+            <li className="px-4">
+              <Link to="/about">About Me</Link>
+            </li>
+            <li className="px-4">
+              <Link to="/contact">Contact</Link>
+            </li>
+            <li className="px-4">
+              <Link to="/grocery">Projects</Link>
+            </li>
+           
+          
+          </ul>
+        </div>
       </div>
-            </div>
-        );
+    );
 };
 
 
